@@ -1,0 +1,124 @@
+.login-page {
+    background-color: #F9F8FF;
+    height: 100vh;
+    min-height: 50rem;
+    width: 100%;
+    display: grid;
+    grid-template-rows: 7rem auto 7rem;
+    position: relative;
+    overflow: hidden;
+    user-select: none;
+}
+
+.login-header {
+    padding: 3.25rem;
+}
+
+.login-main {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    grid-row: 2/3;
+    z-index: 10;
+}
+
+.login-welcome {
+    display: inline-block;
+}
+
+.login-instruction {
+    display: inline-block;
+    text-align: center;
+}
+
+.tree-img-container {
+    position: absolute;
+    bottom: -4px;
+    left: -4rem;
+    width: 34rem;
+    height: auto;
+}
+
+.tree-img {
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+}
+
+
+.clouds-img-container {
+    position: absolute;
+    bottom: -10rem;
+    right: -4rem;
+    width: 36rem;
+    height: auto;
+}
+
+.clouds-img {
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+}
+
+
+.quick-img-container {
+    position: absolute;
+    right: 1rem;
+    top: -1rem;
+    width: 38rem;
+    height: auto;
+}
+
+.quick-img {
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+}
+
+
+@media only screen and (max-width: 60em) {
+
+    .login-header {
+        padding: 2rem;
+    }
+
+    .tree-img-container {
+        width: 20rem;
+    }
+
+    .clouds-img-container {
+        width: 0;
+        height: 0;
+    }
+
+    .quick-img-container {
+        width: 12rem;
+        top: 4rem;
+    }    
+
+}
+
+
+@media only screen and (max-width: 78.12em) and (min-width: 60em) {
+
+    .login-header {
+        padding: 2.5rem;
+    }
+
+    .tree-img-container {
+        width: 22rem;
+    }
+
+    .clouds-img-container {
+        width: 10rem;
+        height: auto;
+    }
+
+    .quick-img-container {
+        width: 12rem;
+        top: 4rem;
+    }    
+
+}

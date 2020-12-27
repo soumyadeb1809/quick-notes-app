@@ -1,0 +1,32 @@
+.banner {
+    display: flex;
+    align-items: center;
+    user-select: none;
+}
+
+.banner-logo {
+    width: 2.5rem;
+    height: auto;
+}
+
+.banner-name {
+    font-weight: 700;
+    font-size: 1.75rem;
+    display: inline-block;
+}
+
+.banner-name-text {
+    margin-top: -2px;
+}
+
+@media only screen and (max-width: 60em) {
+
+    .banner-logo {
+        width: 2rem
+    }
+    
+    .banner-name {
+        font-size: 1.4rem;
+    }
+
+}

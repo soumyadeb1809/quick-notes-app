@@ -1,0 +1,30 @@
+/* MARGIN */
+.mar-right-16 {
+    margin-right: 1rem;
+}
+
+.mar-bottom-64 {
+    margin-bottom: 4rem;
+}
+
+/* FONT SIZE */
+.fs-60 {
+    font-size: 3.75rem;
+}
+
+.fs-32 {
+    font-size: 2rem;
+}
+
+.fs-28 {
+    font-size: 1.75rem;
+}
+
+.fs-16 {
+    font-size: 1rem;
+}
+
+/* FONT WEIGHT */
+.fw-bold {
+    font-weight: 700;
+}
