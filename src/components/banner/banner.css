@@ -5,13 +5,13 @@
 }
 
 .banner-logo {
-    width: 2.5rem;
+    width: 2rem;
     height: auto;
 }
 
 .banner-name {
     font-weight: 700;
-    font-size: 1.75rem;
+    font-size: 1.5rem;
     display: inline-block;
 }
 

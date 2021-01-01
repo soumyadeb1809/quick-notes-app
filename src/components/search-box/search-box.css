@@ -1,0 +1,29 @@
+.search-box-component {
+    background-color: var(--color-backgroud);
+    border-radius: 1rem;
+    padding: 1rem 1.5rem;
+    width: 100%;
+    color: var(--color-grey-light);
+    font-size: 1rem;
+    display: inline-flex;
+    border: none;
+    transition: all .2s;
+}
+
+.search-icon-container {
+    margin-right: .8rem;
+}
+
+.search-box-input {
+    width: 100%;
+    border: none;
+    background-color: transparent;
+}
+
+.search-box-input:focus {
+    outline: none;
+}
+
+.search-box-component:focus-within {
+    background-color: var(--color-primary-light-1);
+}

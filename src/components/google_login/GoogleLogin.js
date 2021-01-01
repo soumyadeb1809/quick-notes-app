@@ -10,7 +10,6 @@ const GoogleLogin = () => {
                 <img className="google-logo" src={ googleLogo } alt="Google Logo"/>
             </div>
             
-
             <span className="google-login-text">Sign in with Google</span>
         </div>
     );

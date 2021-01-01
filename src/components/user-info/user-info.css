@@ -1,0 +1,51 @@
+.user-info-component {
+    display: inline-flex;
+    align-items: center;
+}
+
+.user-info-img-container {
+    height: 3rem;
+    width: 3rem;
+    border-radius: 100px;
+    overflow: hidden;
+    margin-right: 1rem;
+    border: 2px solid var(--color-white);
+    box-shadow: 0 1px .5rem var(--color-grey-light);
+}
+
+.user-info-img {
+    height: 100%;
+    width: 100%;
+}
+
+.user-info-txt-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.user-info-name-txt {
+    font-size: 1rem;
+    font-weight: 700;
+}
+
+.user-info-email-txt {
+    font-size: .8rem;
+}
+
+.user-info-options-container {
+    margin-left: 2rem;
+}
+
+.user-info-options-btn {
+    border: none;
+    background-color: transparent;
+    padding: 2px;
+}
+
+.user-info-options-btn:focus {
+    outline: none;
+}
+
+.user-info-options-btn:active {
+    background-color: var(--color-primary-light-1);
+}

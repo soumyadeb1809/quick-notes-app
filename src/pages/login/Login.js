@@ -2,12 +2,12 @@ import React from 'react';
 
 import './login.css';
 
-import Banner from '../components/banner/Banner';
-import GoogleLogin from '../components/google_login/GoogleLogin';
+import Banner from '../../components/banner/Banner';
+import GoogleLogin from '../../components/google_login/GoogleLogin';
 
-import treeImg from '../assets/tree.png';
-import quickImg from '../assets/quick.png';
-import cloudsImg from '../assets/clouds.png';
+import treeImg from '../../assets/tree.png';
+import quickImg from '../../assets/quick.png';
+import cloudsImg from '../../assets/clouds.png';
 
 
 const Login = () => {
